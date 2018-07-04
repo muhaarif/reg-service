@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "project": "rf-master-services",
+  "environment": "dev",
+  "self_host": "localhost",
+  "self_port": "9000",
+  "context_root": "/api/v1",
+  "mongo":{
+      "host":"localhost",
+      "port":27017,
+      "database":"registration",
+      "username":"",
+      "password":""
+  },
+  "swagger": {
+    "title": "Master Services API Documentation",
+    "version": "1.0.0"
+  }
+}

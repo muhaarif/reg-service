@@ -1,0 +1,26 @@
+[
+  {
+      "id": 1 ,
+      "firstName": "Muhammed",
+      "lastName": "Arif",
+      "email": "sdf@gmail.com",
+      "phoneNumber": "123456865",
+      "expiryDate": "12/10/2011"
+  },
+  {
+      "id": 2 ,
+      "firstName": "Aboo",
+      "lastName": "Saimon",
+      "email": "adc@gmail.com",
+      "phoneNumber": "876432349",
+      "expiryDate": "12/12/2009"
+  },
+  {
+      "id": 3 ,
+      "firstName": "Nabil",
+      "lastName": "Ahmad",
+      "email": "abcd@gmail.com",
+      "phoneNumber": "8764233495",
+      "expiryDate": "12/11/2001"
+  }
+]
