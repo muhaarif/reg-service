@@ -1,8 +1,4 @@
-//Sample Routes
-export const HELLO = '/hello';
-export const CHECK_NAMES = '/checknames/{name}';
-export const SAMPLES = '/samples';
-export const SAMPLE_BY_ID = '/sample/{id}';
+// Routes
 export const ERROR_404 = '/master/404';
 export const USERS = '/master/users';
 export const USER = '/master/user';

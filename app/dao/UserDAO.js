@@ -21,8 +21,6 @@ UserDAO.prototype.getUserById = function (id,data,callback) {
     User.findOne({"id":parseInt(id)},data,callback);
 }
 
-
-
 UserDAO.prototype.updateUserById = function (id, data, callback) {
     User.findOneAndUpdate({ "id": parseInt(id) }, data, callback);
 }

@@ -4,7 +4,6 @@ var Mongoose = require('mongoose');
 var config = require('config');
 var ConnectionUtils =require('./ConnectionUtils.js');
 var mongoConfig = config.get('mongo');
-//Mongoose.connect(config.database.url);
 const URI = ConnectionUtils.createMongoUri(mongoConfig)
 Mongoose.connect(URI);
 console.log(" Mongo Connection Uri {}  , ", URI);

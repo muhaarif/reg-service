@@ -1,2 +1,2 @@
-export const DEFAULT_USER = "TK-DEV-TEAM";
+export const DEFAULT_USER = "Arif";
 export const AUTH_KEY= "CMSTEST";
