@@ -33,8 +33,6 @@ export const saveUser = () => {
     tags: ['api'],
     description: 'Save user data',
     notes: 'Save user data',
-    // We use Joi plugin to validate request
-  
     handler: (request, reply) => {
       if (request.payload) {
         userService.addUser(request.payload, function (err, user) {

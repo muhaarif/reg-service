@@ -33,10 +33,3 @@ export const handleErrorResponse = (request, error) => {
   return response;
 
 };
-
-export const healthCheck = () => {
-  let response = {};
-  response.status = "success";
-  response.serverStatus = "active";
-  return response;
-};
